@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -e
+
+function is_dirty {
+  if [[ $(git diff --shortstat HEAD -- dist 2>/dev/null | tail -n1) != "" ]]; then
+    exit 1
+  fi
+}
+
+exec yarn run dist && is_dirty || exit 1
