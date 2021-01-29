@@ -1,0 +1,10 @@
+{
+  "name": "@rakenodiax/emotion-material",
+  "version": "0.0.1",
+  "description": "Material styling library for emotion",
+  "main": "index.js",
+  "repository": "https://github.com/rakenodiax/emotion-material",
+  "author": "Kellen Frodelius-Fujimoto <kellen@kellenfujimoto.com>",
+  "license": "MIT",
+  "private": false
+}
