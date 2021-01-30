@@ -1,1 +1,1 @@
-export declare const foo = 1;
+export * as colors from './colors';
